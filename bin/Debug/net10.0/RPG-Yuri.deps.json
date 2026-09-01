@@ -1,0 +1,491 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "RPG-Yuri/1.0.0": {
+        "dependencies": {
+          "SDL3-CS": "3.4.14.1",
+          "SDL3-CS.Windows": "3.4.14.1",
+          "SDL3-CS.Windows.Image": "3.4.4.10",
+          "SDL3-CS.Windows.Mixer": "3.2.4.9",
+          "SDL3-CS.Windows.Shadercross": "3.0.0.9",
+          "SDL3-CS.Windows.TTF": "3.2.2.9"
+        },
+        "runtime": {
+          "RPG-Yuri.dll": {}
+        }
+      },
+      "SDL3-CS/3.4.14.1": {
+        "runtime": {
+          "lib/net10.0/SDL3-CS.dll": {
+            "assemblyVersion": "3.4.14.0",
+            "fileVersion": "3.4.14.0"
+          }
+        }
+      },
+      "SDL3-CS.Windows/3.4.14.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/SDL3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "3.4.14.0"
+          },
+          "runtimes/win-x64/native/SDL3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.4.14.0"
+          },
+          "runtimes/win-x86/native/SDL3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.4.14.0"
+          }
+        }
+      },
+      "SDL3-CS.Windows.Image/3.4.4.10": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/SDL3_image.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "3.4.4.0"
+          },
+          "runtimes/win-arm64/native/aom.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/dav1d.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libavif-16.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libpng16-16.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libwebp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libwebpdemux.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libwebpmux.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/tiff.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.7.1.0"
+          },
+          "runtimes/win-x64/native/SDL3_image.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.4.4.0"
+          },
+          "runtimes/win-x64/native/aom.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/dav1d.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libavif-16.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libpng16-16.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libwebp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libwebpdemux.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libwebpmux.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/tiff.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.7.1.0"
+          },
+          "runtimes/win-x86/native/SDL3_image.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.4.4.0"
+          },
+          "runtimes/win-x86/native/aom.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/dav1d.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libavif-16.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libpng16-16.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libwebp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libwebpdemux.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libwebpmux.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/tiff.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "SDL3-CS.Windows.Mixer/3.2.4.9": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/FLAC-8.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/SDL3_mixer.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "3.2.4.0"
+          },
+          "runtimes/win-arm64/native/gme.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libxmp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/mpg123-0.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/ogg-0.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/opus-0.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/opusfile-0.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/vorbis-0.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/vorbisfile-3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/wavpackdll.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "5.9.0.0"
+          },
+          "runtimes/win-x64/native/FLAC-8.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL3_mixer.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.2.4.0"
+          },
+          "runtimes/win-x64/native/gme.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libxmp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/mpg123-0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/ogg-0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opus-0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opusfile-0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/vorbis-0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/vorbisfile-3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/wavpackdll.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.9.0.0"
+          },
+          "runtimes/win-x86/native/FLAC-8.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL3_mixer.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.2.4.0"
+          },
+          "runtimes/win-x86/native/gme.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libxmp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/mpg123-0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/ogg-0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/opus-0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/opusfile-0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/vorbis-0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/vorbisfile-3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/wavpackdll.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "5.9.0.0"
+          }
+        }
+      },
+      "SDL3-CS.Windows.Shadercross/3.0.0.9": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/SDL3_shadercross.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-arm64/native/dxcompiler.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-arm64/native/dxil.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-arm64/native/spirv-cross-c-shared.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL3_shadercross.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/native/dxcompiler.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-x64/native/dxil.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-x64/native/spirv-cross-c-shared.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL3_shadercross.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x86/native/dxcompiler.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-x86/native/dxil.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.9.2602.17"
+          },
+          "runtimes/win-x86/native/spirv-cross-c-shared.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SDL3-CS.Windows.TTF/3.2.2.9": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/SDL3_ttf.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "3.2.2.0"
+          },
+          "runtimes/win-x64/native/SDL3_ttf.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.2.2.0"
+          },
+          "runtimes/win-x86/native/SDL3_ttf.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.2.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RPG-Yuri/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SDL3-CS/3.4.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3X50ZpVw20wtCQZO/To9b5aesE22ZcYE9fL/2IOd4KCuT9q1DBsa8PHJJIcxt9sW4uHvjj8gP6n5KPMzzxeKA==",
+      "path": "sdl3-cs/3.4.14.1",
+      "hashPath": "sdl3-cs.3.4.14.1.nupkg.sha512"
+    },
+    "SDL3-CS.Windows/3.4.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Be2vHp02n5wWJgX3CGicmohg5+QjleULdbJgQtCKis+2r53VaIwTdt0OYx8wCARYCuS17OSHXj8AMhoCo41qyA==",
+      "path": "sdl3-cs.windows/3.4.14.1",
+      "hashPath": "sdl3-cs.windows.3.4.14.1.nupkg.sha512"
+    },
+    "SDL3-CS.Windows.Image/3.4.4.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-19lcSSXfH0P3C29Fqi45/9N1V0oNaSaXYBSXfWAsHhXBduWQw02yhxwE38QnyfEFE1Scaf7ZqwE8Mmj0+9KMOw==",
+      "path": "sdl3-cs.windows.image/3.4.4.10",
+      "hashPath": "sdl3-cs.windows.image.3.4.4.10.nupkg.sha512"
+    },
+    "SDL3-CS.Windows.Mixer/3.2.4.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jemdCasKkFlOm9Ytakn9GifUMpNhoCMGiY4yH7qI8LrPa+DuUdiMpvrao7LpYMAZOeveEjKoTl97cP9WsUnImQ==",
+      "path": "sdl3-cs.windows.mixer/3.2.4.9",
+      "hashPath": "sdl3-cs.windows.mixer.3.2.4.9.nupkg.sha512"
+    },
+    "SDL3-CS.Windows.Shadercross/3.0.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wqBg8Ua3OvKcEoxqFgoMtCHg617PjttQPN2u0D8Xfw9DlK+fUxIfLRhQv5aavmrYfT3dDloyTgOnc6yNuIFGOw==",
+      "path": "sdl3-cs.windows.shadercross/3.0.0.9",
+      "hashPath": "sdl3-cs.windows.shadercross.3.0.0.9.nupkg.sha512"
+    },
+    "SDL3-CS.Windows.TTF/3.2.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZWddEECW06ybCyw2WMnIpov5j7uytgNvE4HD6mjyrf+gYwqxpMoaHeTti3HrmRs2IJWKa8+4Ry1RhoaMYnTQQ==",
+      "path": "sdl3-cs.windows.ttf/3.2.2.9",
+      "hashPath": "sdl3-cs.windows.ttf.3.2.2.9.nupkg.sha512"
+    }
+  }
+}

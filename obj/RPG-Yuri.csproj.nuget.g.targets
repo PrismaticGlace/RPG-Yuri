@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows.ttf\3.2.2.9\buildTransitive\SDL3-CS.Windows.TTF.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows.ttf\3.2.2.9\buildTransitive\SDL3-CS.Windows.TTF.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows.shadercross\3.0.0.9\buildTransitive\SDL3-CS.Windows.Shadercross.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows.shadercross\3.0.0.9\buildTransitive\SDL3-CS.Windows.Shadercross.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows.mixer\3.2.4.9\buildTransitive\SDL3-CS.Windows.Mixer.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows.mixer\3.2.4.9\buildTransitive\SDL3-CS.Windows.Mixer.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows.image\3.4.4.10\buildTransitive\SDL3-CS.Windows.Image.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows.image\3.4.4.10\buildTransitive\SDL3-CS.Windows.Image.targets')" />
+    <Import Project="$(NuGetPackageRoot)sdl3-cs.windows\3.4.14.1\buildTransitive\SDL3-CS.Windows.targets" Condition="Exists('$(NuGetPackageRoot)sdl3-cs.windows\3.4.14.1\buildTransitive\SDL3-CS.Windows.targets')" />
+  </ImportGroup>
+</Project>

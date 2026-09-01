@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sAIuT0RYMao=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Merli\\Documents\\Gaymes\\RPG-Yuri\\RPG-Yuri.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs\\3.4.14.1\\sdl3-cs.3.4.14.1.nupkg.sha512",
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs.windows\\3.4.14.1\\sdl3-cs.windows.3.4.14.1.nupkg.sha512",
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs.windows.image\\3.4.4.10\\sdl3-cs.windows.image.3.4.4.10.nupkg.sha512",
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs.windows.mixer\\3.2.4.9\\sdl3-cs.windows.mixer.3.2.4.9.nupkg.sha512",
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs.windows.shadercross\\3.0.0.9\\sdl3-cs.windows.shadercross.3.0.0.9.nupkg.sha512",
+    "C:\\Users\\Merli\\.nuget\\packages\\sdl3-cs.windows.ttf\\3.2.2.9\\sdl3-cs.windows.ttf.3.2.2.9.nupkg.sha512"
+  ],
+  "logs": []
+}
