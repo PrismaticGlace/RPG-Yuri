@@ -93,3 +93,4 @@ C:\Users\Merli\Documents\Gaymes\RPG-Yuri\obj\Debug\net10.0\refint\RPG-Yuri.dll
 C:\Users\Merli\Documents\Gaymes\RPG-Yuri\obj\Debug\net10.0\RPG-Yuri.pdb
 C:\Users\Merli\Documents\Gaymes\RPG-Yuri\obj\Debug\net10.0\RPG-Yuri.genruntimeconfig.cache
 C:\Users\Merli\Documents\Gaymes\RPG-Yuri\obj\Debug\net10.0\ref\RPG-Yuri.dll
+C:\Users\Merli\Documents\Gaymes\RPG-Yuri\obj\Debug\net10.0\RPG-Yuri.sourcelink.json

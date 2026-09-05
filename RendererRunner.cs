@@ -9,8 +9,8 @@ internal static class RendererRunner {
     public static int Run(
         string gameName,
         string gameIdentf,
-        string releaseVersion,
         string windowTitle,
+        string releaseVersion,
         int windowWidth,
         int windowHeight,
         Action<SetRenderer, double> renderFrame,
@@ -23,7 +23,7 @@ internal static class RendererRunner {
         SetRenderer? context = null;
         
         try {
-            context = SetRenderer.Create(gameName, gameIdentf, releaseVersion, windowTitle, windowWidth, windowHeight, initFlags, presentation);
+            context = SetRenderer.Create(gameName, gameIdentf, windowTitle, releaseVersion, windowWidth, windowHeight, initFlags, presentation);
             configure?.Invoke(context);
 
             while (context.PollEvents(handleEvent)) {

@@ -2,29 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using SDL3;
 
 namespace RPG_Yuri {
     internal static class Program {
-        [STAThread]
-        private static void Main() {
-            //if (!SDL.Init(SDL.InitFlags.Video)) {
-            //    SDL.LogError(SDL.LogCategory.Application, $"Error creating window and rendering: {SDL.GetError()}");
-            //    return;
-            //}
+        public static FPSCounter fpsCounter = new FPSCounter();
 
-            //Tries to create a Window and Renderer
-            //if (!SDL.CreateWindowAndRenderer("SDL3 Create Window", 800, 600, 0, out var window, out var renderer)) {
-            //    SDL.LogError(SDL.LogCategory.Application, $"Error creating window and rendering: {SDL.GetError()}");
-            //    return;
-            //}
+        [STAThread]
+        
+        private static void Main() {
 
             RendererRunner.Run(
                 "Yuri RPG",
                 "ca.prismaticglace.yurirpg",
-                "0.1",
                 "Skyline over Scarlet Expanse",
+                "0.1",
                 800,
                 600,
                 RenderFrame,
@@ -68,13 +63,46 @@ namespace RPG_Yuri {
                 case SDL.Scancode.W:
                     break;
                 case SDL.Scancode.E:
+                    var buttons = new SDL.MessageBoxButtonData[] {
+                        new() {ButtonID = 0, Flags = SDL.MessageBoxButtonFlags.EscapekeyDefault, Text = "Escape"},
+                        new() {ButtonID = 1, Flags = SDL.MessageBoxButtonFlags.ReturnkeyDefault, Text = "Return"},
+                        new() {ButtonID = 2, Flags = SDL.MessageBoxButtonFlags.ReturnkeyDefault, Text = "Retry"}
+                    };
+                    var buttonsPtr = SDL.StructureArrayToPointer(buttons);
+                    
+                    try {
+                        var messageBoxData = new SDL.MessageBoxData() {
+                            Buttons = buttonsPtr,
+                            NumButtons = buttons.Length,
+                            Flags = SDL.MessageBoxFlags.Error,
+                            Title = "Yuri",
+                            Message = "I LOVE YURI WOOOO"
+                        };
+
+                        SDL.ShowMessageBox(messageBoxData, out var resButton);
+                        SDL.LogInfo(SDL.LogCategory.Application, $"MessageBox Result button ID: {resButton}");
+                    }
+                    finally {
+                        Marshal.FreeHGlobal(buttonsPtr);
+                    }
                     break;
             }
             return true;
         }
 
-        private static void RenderFrame(SetRenderer context, double now) {
-            //Render Frames
+        private static void RenderFrame(SetRenderer context, double now) {            
+
+            var r = (byte)(SDL.Rand(255) + 1);
+            var g= (byte)(SDL.Rand(255) + 1);
+            var b = (byte)(SDL.Rand(255) + 1);
+
+            fpsCounter.Update();
+
+            SDL.SetRenderDrawColor(context.Renderer, r, g, b, 255);
+            SDL.RenderClear(context.Renderer);
+            SDL.SetRenderDrawColor(context.Renderer, 100, 100, 100, 255);
+            SDL.RenderDebugText(context.Renderer, 10, 10, $"FPS: {fpsCounter.FPS:N0}");
+            SDL.RenderPresent(context.Renderer);
         }
 
     }

@@ -1,4 +1,4 @@
-using SDL3;
+/* using SDL3;
 
 namespace RPG_Yuri;
 
@@ -41,3 +41,4 @@ public sealed class Test {
 
             SDL.Quit();
 }
+*/
