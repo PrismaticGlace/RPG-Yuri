@@ -1,0 +1,10 @@
+{
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoIndent": "advanced",
+    "editor.autoSurround": "never",
+    "dotnet.autoInsert.enableAutoInsert": false
+}

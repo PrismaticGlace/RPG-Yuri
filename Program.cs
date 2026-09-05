@@ -4,10 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using SDL3;
 
-
-
 namespace RPG_Yuri {
-    internal static class Test {
+    internal static class Program {
         [STAThread]
         private static void Main() {
             if (!SDL.Init(SDL.InitFlags.Video)) {
@@ -15,8 +13,8 @@ namespace RPG_Yuri {
                 return;
             }
 
-            if (!SDL.CreateWindowAndRenderer("SDL3 Create Window", 800, 600, 0, out var window, out var renderer))
-            {
+            //Tries to create a Window and Renderer
+            if (!SDL.CreateWindowAndRenderer("SDL3 Create Window", 800, 600, 0, out var window, out var renderer)) {
                 SDL.LogError(SDL.LogCategory.Application, $"Error creating window and rendering: {SDL.GetError()}");
                 return;
             }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPG-Yuri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aafac5d0be5845c44fb6b3e68d5fd9776a640378")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPG-Yuri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPG-Yuri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
