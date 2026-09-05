@@ -6,22 +6,22 @@ using SDL3;
 
 namespace RPG_Yuri {
     public class FPSCounter {
-        private ulong _lastTime = SDL.GetPerformanceCounter();
-        private int _frameCount;
-        private double _fps;
+        private ulong lastTime = SDL.GetPerformanceCounter();
+        private int frameCount;
+        private double fps;
 
         public void Update() {
-            _frameCount++;
+            frameCount++;
             var currentTime = SDL.GetPerformanceCounter();
-            var elapsedTime = (currentTime - _lastTime) / (double)SDL.GetPerformanceFrequency();
+            var elapsedTime = (currentTime - lastTime) / (double)SDL.GetPerformanceFrequency();
 
             if (!(elapsedTime >= 0.1)) return;
 
-            _fps = _frameCount / elapsedTime;
-            _frameCount = 0;
-            _lastTime = currentTime;
+            fps = frameCount / elapsedTime;
+            frameCount = 0;
+            lastTime = currentTime;
         }
 
-        public double FPS => _fps;
+        public double FPS => fps;
     }
 }
