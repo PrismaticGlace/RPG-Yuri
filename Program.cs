@@ -61,6 +61,7 @@ namespace RPG_Yuri {
                 case SDL.Scancode.D:
                     break;
                 case SDL.Scancode.W:
+                    
                     break;
                 case SDL.Scancode.E:
                     var buttons = new SDL.MessageBoxButtonData[] {
